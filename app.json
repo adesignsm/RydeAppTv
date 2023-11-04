@@ -3,7 +3,7 @@
     "name": "rydeAppTv",
     "slug": "rydeAppTv",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -31,6 +31,13 @@
       "eas": {
         "projectId": "4b9a485d-624a-4256-9012-58d6ae5b8b06"
       }
-    }
+    },
+    "plugins": [
+      [
+        "expo-screen-orientation", {
+          "initialOrientation": "LANDSCAPE"
+        }
+      ]
+    ]
   }
 }
